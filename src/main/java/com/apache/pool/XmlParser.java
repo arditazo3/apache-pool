@@ -11,7 +11,7 @@ public class XmlParser<E, T> implements Parser<E, T> {
             System.out.println("[" + Thread.currentThread().getName()+ "]: Parser Instance:" + this);
             // Do some real parsing stuff.
 
-            test = "test";
+            test = "aardit";
         } catch(Exception e) {
             this.exception = e;
             e.printStackTrace(System.err);
